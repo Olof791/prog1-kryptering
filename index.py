@@ -4,9 +4,6 @@ ord = x
 
 
 for bokstav in ord:
-        if bokstav =="ö":
-            print(alabete[0])
-        else: 
-            plats = alabete.index(bokstav)
-            print(alabete[plats+1])
+        plats = alabete.index(bokstav)
+        print(alabete[(plats+3)%29])
       
